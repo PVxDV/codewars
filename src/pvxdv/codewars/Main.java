@@ -1,8 +1,15 @@
 package pvxdv.codewars;
 
-public class Main {
 
+import pvxdv.kyu5.DirectionsReduction;
+import pvxdv.kyu7.ReverseWords;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println(DescendingOrder7.sortDesc(42145));
+
+       for (String string : DirectionsReduction.dirReduc(new String[]{"NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"})) {
+           System.out.println(string);
+       }
     }
 }
+

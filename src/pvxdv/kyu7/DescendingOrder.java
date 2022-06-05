@@ -1,4 +1,4 @@
-package pvxdv.codewars;
+package pvxdv.kyu7;
 
 //Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
 //
@@ -9,7 +9,7 @@ package pvxdv.codewars;
 //
 //Input: 123456789 Output: 987654321
 
-public class DescendingOrder7 {
+public class DescendingOrder {
     public static int sortDesc(final int num) {
         int[] numbers = new int[String.valueOf(num).length()];
         int count = num;
